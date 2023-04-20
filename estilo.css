@@ -1,0 +1,28 @@
+/* Seção de cartões */
+.section-container {
+    /* Tamanho da seção de cartões */
+    max-width: 700px;
+    border: solid red 1px;
+    margin: auto;
+    padding: auto;
+}
+
+/* Container dos cartoes */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/* Propriedades dos cartões */
+.card {
+    height: 250px;
+    width: 200px;
+    border: solid rgb(7, 108, 7) 2px;
+    border-radius: 15px;
+    background-color: pink;
+}
